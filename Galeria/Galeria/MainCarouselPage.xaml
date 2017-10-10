@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CarouselPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Galeria.MainCarouselPage">
+
+    <ContentPage BackgroundColor="DarkViolet" >
+        <ContentPage.Content>
+            <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                <Label Text="GUFY"  HorizontalTextAlignment="Center" TextColor="Black" FontSize="Large" />
+                <Image Source="gufy.png"/>
+                <Button Grid.Column="0" Grid.Row="0" Text="Like"    Clicked="like_Clicked"        AnchorX="8" AnchorY="8" HorizontalOptions="Start" Image="lik1.png" x:Name="like" />
+                <Button Grid.Column="0" Grid.Row="0" Text="DisLike" Clicked="dislike_Clicked"     AnchorX="8" AnchorY="8" HorizontalOptions="Start" Image="dislike.png" x:Name="dislike"/>
+                
+            </StackLayout>
+        </ContentPage.Content>
+    </ContentPage>
+
+
+    <ContentPage BackgroundColor="Cyan">
+        <ContentPage.Content>
+            <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                <Label Text="ANDROID"  HorizontalTextAlignment="Center" TextColor="Black" FontSize="Large" />
+                <Image Source="android.png"/>
+                <Button Text="Like" Clicked="Button_Clicked"       AnchorX="8" AnchorY="8" HorizontalOptions="Start" Image="lik1.png"/>
+                <Button Text="DisLike" Clicked="Button_Clicked_1"  AnchorX="8" AnchorY="8" HorizontalOptions="Start" Image="dislike.png"/>
+
+            </StackLayout>
+        </ContentPage.Content>
+    </ContentPage>
+
+    <ContentPage BackgroundColor="Fuchsia" >
+        <ContentPage.Content>
+            <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                <Label Text="APP ANDROID"  HorizontalTextAlignment="Center" TextColor="Black" FontSize="Large" />
+                <Image Source="android1.png"/>
+                <Button Text="Like" Clicked="Button_Clicked_2"     AnchorX="8" AnchorY="8" HorizontalOptions="Start" Image="lik1.png"/>
+                <Button Text="DisLike" Clicked="Button_Clicked_3"  AnchorX="8" AnchorY="8" HorizontalOptions="Start" Image="dislike.png"/>
+
+
+            </StackLayout>
+        </ContentPage.Content>
+    </ContentPage>
+
+
+    <ContentPage BackgroundColor="Goldenrod" >
+        <ContentPage.Content>
+            <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                <Label Text="APPLE"  HorizontalTextAlignment="Center" TextColor="Black" FontSize="Large" />
+                <Image Source="apple.png"/>
+                <Button Text="Like" Clicked="Button_Clicked_4"     AnchorX="8" AnchorY="8" HorizontalOptions="Start" Image="lik1.png"/>
+                <Button Text="DisLike" Clicked="Button_Clicked_5"  AnchorX="8" AnchorY="8" HorizontalOptions="Start" Image="dislike.png"/>
+            </StackLayout>
+        </ContentPage.Content>
+    </ContentPage>
+
+
+    <ContentPage BackgroundColor="AliceBlue">
+        <ContentPage.Content>
+            <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                <Label Text="SMALL APPLE"  HorizontalTextAlignment="Center" TextColor="Black" FontSize="Large" />
+                <Image Source="apple1.png"/>
+                <Button Text="Like" Clicked="Button_Clicked_6"     AnchorX="8" AnchorY="8" HorizontalOptions="Start" Image="lik1.png"/>
+                <Button Text="DisLike" Clicked="Button_Clicked_7"  AnchorX="8" AnchorY="8" HorizontalOptions="Start" Image="dislike.png"/>
+
+            </StackLayout>
+        </ContentPage.Content>
+    </ContentPage>
+
+    <ContentPage BackgroundColor="Salmon">
+        <ContentPage.Content>
+            <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                <Label Text="ANDROID VS APPLE"  HorizontalTextAlignment="Center" TextColor="Black" FontSize="Large" />
+                <Image Source="Appleyandroid.png"/>
+                <Button Text="Like" Clicked="Button_Clicked_8"     AnchorX="8" AnchorY="8" HorizontalOptions="Start" Image="lik1.png"/>
+                <Button Text="DisLike" Clicked="Button_Clicked_9"  AnchorX="8" AnchorY="8" HorizontalOptions="Start" Image="dislike.png"/>
+
+            </StackLayout>
+        </ContentPage.Content>
+    </ContentPage>
+
+
+
+    <ContentPage BackgroundColor="Beige">
+        <ContentPage.Content>
+            <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                <Label Text="MEMBRANA REDES"  HorizontalTextAlignment="Center" TextColor="Black" FontSize="Large" />
+                <Image Source="face.png"/>
+                <Button Text="Like" Clicked="Button_Clicked_10"     AnchorX="8" AnchorY="8" HorizontalOptions="Start" Image="lik1.png"/>
+                <Button Text="DisLike" Clicked="Button_Clicked_11"  AnchorX="8" AnchorY="8" HorizontalOptions="Start" Image="dislike.png"/>
+            </StackLayout>
+        </ContentPage.Content>
+    </ContentPage>
+
+
+    <ContentPage BackgroundColor="RosyBrown" >
+        <ContentPage.Content>
+            <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                <Label Text="REDES SOCIALES"  HorizontalTextAlignment="Center" TextColor="Black" FontSize="Large" />
+                <Image Source="redsocial.png"/>
+                <Button Text="Like" Clicked="Button_Clicked_12"     AnchorX="8" AnchorY="8" HorizontalOptions="Start" Image="lik1.png"/>
+                <Button Text="DisLike" Clicked="Button_Clicked_13"  AnchorX="8" AnchorY="8" HorizontalOptions="Start" Image="dislike.png"/>
+            </StackLayout>
+        </ContentPage.Content>
+    </ContentPage>
+
+    <ContentPage BackgroundColor="LightPink" >
+        <ContentPage.Content>
+            <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                <Label Text="GLOBO REDES SOCIALES"  HorizontalTextAlignment="Center" TextColor="Black" FontSize="Large" />
+                <Image Source="socialred.png"/>
+                <Button Text="Like" Clicked="Button_Clicked_14"     AnchorX="8" AnchorY="8" HorizontalOptions="Start" Image="lik1.png"/>
+                <Button Text="DisLike" Clicked="Button_Clicked_15"  AnchorX="8" AnchorY="8" HorizontalOptions="Start" Image="dislike.png"/>
+            </StackLayout>
+        </ContentPage.Content>
+    </ContentPage>
+
+
+    <ContentPage BackgroundColor="YellowGreen">
+        <ContentPage.Content>
+            <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                <Image Source="uwp.png"/>
+                <Button Text="Like" Clicked="Button_Clicked_16"     AnchorX="8" AnchorY="8" HorizontalOptions="Start" Image="lik1.png"/>
+                <Button Text="DisLike" Clicked="Button_Clicked_17"  AnchorX="8" AnchorY="8" HorizontalOptions="Start" Image="dislike.png"/>
+            </StackLayout>
+        </ContentPage.Content>
+    </ContentPage>
+
+
+
+    <ContentPage BackgroundColor="Black">
+        <ContentPage.Content>
+            <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+               
+                <Button Text="Total Like" Clicked="Button_Clicked_18"     AnchorX="8" AnchorY="8" HorizontalOptions="Start" Image="lik1.png"/>
+                <Button Text="Total DisLike" Clicked="Button_Clicked_19"  AnchorX="8" AnchorY="8" HorizontalOptions="Start" Image="dislike.png"/>
+            </StackLayout>
+        </ContentPage.Content>
+    </ContentPage>
+
+
+</CarouselPage>
